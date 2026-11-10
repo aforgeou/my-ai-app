@@ -1,0 +1,2062 @@
+{
+  "meta": {
+    "name": "智慧学伴知识库",
+    "version": "1.0",
+    "generated_at": "2026-11-07T21:12:18",
+    "scope": "七年级数学：代数式与整式运算、方程与方程组、不等式与不等式组",
+    "sources": {
+      "课程要求": "mydata/模拟学情数据索引.xlsx#课程要求",
+      "题目与材料": "mydata/题目与材料.xlsx",
+      "课程标准": "mydata/课程标准_2022.pdf",
+      "教材切片": "mydata/B01—B08_相关资料切片.pdf"
+    },
+    "notes": [
+      "教材印刷页与切片 PDF 页的对应关系已按页核对，与字段说明的教材正文页一致。",
+      "教材条目本身未标注主题和指标，本库中的指标—教材映射为编辑映射，需在方案文档中说明规则。",
+      "课标条目为相关条目摘录，未纳入后续学段内容（乘法公式、因式分解、一元二次方程等）。"
+    ]
+  },
+  "curriculum": {
+    "CR01": {
+      "code": "CR01",
+      "title": "代数式",
+      "domain": "数与代数",
+      "pdf_page": 62,
+      "print_page": 55,
+      "items": [
+        {
+          "no": "①",
+          "text": "借助现实情境了解代数式，进一步理解用字母表示数的意义。"
+        },
+        {
+          "no": "②",
+          "text": "能分析具体问题中的简单数量关系，并用代数式表示；能根据特定的问题查阅资料，找到所需的公式。"
+        },
+        {
+          "no": "③",
+          "text": "会把具体数代入代数式进行计算。"
+        },
+        {
+          "no": "⑤",
+          "text": "理解整式的概念，掌握合并同类项和去括号的法则；能进行简单的整式加减运算。"
+        }
+      ],
+      "selection_note": "①—⑤为七年级代数式与整式加减的直接依据；⑥乘法公式、⑦因式分解属后续学段，不计入本主题范围。"
+    },
+    "CR02": {
+      "code": "CR02",
+      "title": "方程与方程组",
+      "domain": "数与代数",
+      "pdf_page": 63,
+      "print_page": 56,
+      "items": [
+        {
+          "no": "①",
+          "text": "能根据现实情境理解方程的意义，能针对具体问题列出方程；理解方程解的意义，经历估计方程解的过程。"
+        },
+        {
+          "no": "②",
+          "text": "掌握等式的基本性质；能解一元一次方程和可化为一元一次方程的分式方程。"
+        },
+        {
+          "no": "③",
+          "text": "掌握消元法，能解二元一次方程组。"
+        },
+        {
+          "no": "⑧",
+          "text": "能根据具体问题的实际意义，检验方程解的合理性。"
+        }
+      ],
+      "selection_note": "①—③、⑧为七年级方程与方程组的直接依据；④三元一次方程组为选学，⑤—⑦为一元二次方程，不计入本主题范围。"
+    },
+    "CR03": {
+      "code": "CR03",
+      "title": "不等式与不等式组",
+      "domain": "数与代数",
+      "pdf_page": 63,
+      "print_page": 56,
+      "items": [
+        {
+          "no": "①",
+          "text": "结合具体问题，了解不等式的意义，探索不等式的基本性质。"
+        },
+        {
+          "no": "②",
+          "text": "能解数字系数的一元一次不等式，并能在数轴上表示出解集；会用数轴确定两个一元一次不等式组成的不等式组的解集。"
+        },
+        {
+          "no": "③",
+          "text": "能根据具体问题中的数量关系，列出一元一次不等式，解决简单的问题。"
+        }
+      ],
+      "selection_note": "三条均为七年级不等式与不等式组的直接依据。"
+    }
+  },
+  "themes": [
+    {
+      "theme_id": "T01",
+      "name": "代数式与整式运算",
+      "goal": "能用代数式表示简单数量关系、代入求值，并进行整式加减与解释。",
+      "indicators": [
+        {
+          "indicator_id": "T01I1",
+          "description": "表示数量关系并代入求值",
+          "curriculum_code": "CR01",
+          "curriculum_pages": "62／55",
+          "textbook_pages": "上册68—109",
+          "textbook_sections": [
+            {
+              "id": "B05-3.1",
+              "material_id": "B05",
+              "volume": "七年级上册",
+              "chapter": "第三章 代数式",
+              "section": "3.1 列代数式表示数量关系",
+              "pages": "69—77",
+              "pdf_pages": "2—10"
+            },
+            {
+              "id": "B05-3.2",
+              "material_id": "B05",
+              "volume": "七年级上册",
+              "chapter": "第三章 代数式",
+              "section": "3.2 代数式的值",
+              "pages": "79—85",
+              "pdf_pages": "12—18"
+            }
+          ],
+          "question_ids": [
+            "Q001",
+            "Q002",
+            "Q006",
+            "Q007",
+            "Q013",
+            "Q014"
+          ],
+          "learning_cards": [
+            "L01"
+          ]
+        },
+        {
+          "indicator_id": "T01I2",
+          "description": "识别同类项、去括号并化简",
+          "curriculum_code": "CR01",
+          "curriculum_pages": "62／55",
+          "textbook_pages": "上册68—109",
+          "textbook_sections": [
+            {
+              "id": "B05-4.1",
+              "material_id": "B05",
+              "volume": "七年级上册",
+              "chapter": "第四章 整式的加减",
+              "section": "4.1 整式",
+              "pages": "89—94",
+              "pdf_pages": "22—27"
+            },
+            {
+              "id": "B05-4.2",
+              "material_id": "B05",
+              "volume": "七年级上册",
+              "chapter": "第四章 整式的加减",
+              "section": "4.2 整式的加法与减法（合并同类项、去括号）",
+              "pages": "95—101",
+              "pdf_pages": "28—34"
+            }
+          ],
+          "question_ids": [
+            "Q003",
+            "Q004",
+            "Q005",
+            "Q008",
+            "Q009",
+            "Q010",
+            "Q012",
+            "Q015",
+            "Q016",
+            "Q017"
+          ],
+          "learning_cards": [
+            "L01"
+          ]
+        },
+        {
+          "indicator_id": "T01I3",
+          "description": "用整式解释具体问题",
+          "curriculum_code": "CR01",
+          "curriculum_pages": "62／55",
+          "textbook_pages": "上册68—109",
+          "textbook_sections": [
+            {
+              "id": "B05-3.1",
+              "material_id": "B05",
+              "volume": "七年级上册",
+              "chapter": "第三章 代数式",
+              "section": "3.1 列代数式表示数量关系",
+              "pages": "69—77",
+              "pdf_pages": "2—10"
+            },
+            {
+              "id": "B05-3.2",
+              "material_id": "B05",
+              "volume": "七年级上册",
+              "chapter": "第三章 代数式",
+              "section": "3.2 代数式的值",
+              "pages": "79—85",
+              "pdf_pages": "12—18"
+            },
+            {
+              "id": "B05-4.2",
+              "material_id": "B05",
+              "volume": "七年级上册",
+              "chapter": "第四章 整式的加减",
+              "section": "4.2 整式的加法与减法（合并同类项、去括号）",
+              "pages": "95—101",
+              "pdf_pages": "28—34"
+            }
+          ],
+          "question_ids": [
+            "Q011",
+            "Q018"
+          ],
+          "learning_cards": [
+            "L01"
+          ]
+        }
+      ],
+      "question_ids": [
+        "Q001",
+        "Q002",
+        "Q003",
+        "Q004",
+        "Q005",
+        "Q006",
+        "Q007",
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012",
+        "Q013",
+        "Q014",
+        "Q015",
+        "Q016",
+        "Q017",
+        "Q018"
+      ],
+      "learning_cards": [
+        "L01"
+      ]
+    },
+    {
+      "theme_id": "T02",
+      "name": "方程与方程组",
+      "goal": "能解一元一次方程和二元一次方程组，依据等量关系建立模型并检验答案。",
+      "indicators": [
+        {
+          "indicator_id": "T02I1",
+          "description": "运用等式性质解一元一次方程",
+          "curriculum_code": "CR02",
+          "curriculum_pages": "63／56",
+          "textbook_pages": "上册110—148；下册87—119",
+          "textbook_sections": [
+            {
+              "id": "B06-5.1",
+              "material_id": "B06",
+              "volume": "七年级上册",
+              "chapter": "第五章 一元一次方程",
+              "section": "5.1 方程",
+              "pages": "111—119",
+              "pdf_pages": "2—10"
+            },
+            {
+              "id": "B06-5.2",
+              "material_id": "B06",
+              "volume": "七年级上册",
+              "chapter": "第五章 一元一次方程",
+              "section": "5.2 解一元一次方程（合并同类项、移项、去括号、去分母）",
+              "pages": "120—131",
+              "pdf_pages": "11—22"
+            }
+          ],
+          "question_ids": [
+            "Q019",
+            "Q020",
+            "Q021",
+            "Q022",
+            "Q023",
+            "Q024",
+            "Q025",
+            "Q026"
+          ],
+          "learning_cards": [
+            "L02"
+          ]
+        },
+        {
+          "indicator_id": "T02I2",
+          "description": "用消元法解二元一次方程组",
+          "curriculum_code": "CR02",
+          "curriculum_pages": "63／56",
+          "textbook_pages": "上册110—148；下册87—119",
+          "textbook_sections": [
+            {
+              "id": "B06-10.1",
+              "material_id": "B06",
+              "volume": "七年级下册",
+              "chapter": "第十章 二元一次方程组",
+              "section": "10.1 二元一次方程组的概念",
+              "pages": "88—90",
+              "pdf_pages": "41—43"
+            },
+            {
+              "id": "B06-10.2",
+              "material_id": "B06",
+              "volume": "七年级下册",
+              "chapter": "第十章 二元一次方程组",
+              "section": "10.2 消元——解二元一次方程组（代入法、加减法）",
+              "pages": "91—99",
+              "pdf_pages": "44—52"
+            }
+          ],
+          "question_ids": [
+            "Q028",
+            "Q029",
+            "Q030",
+            "Q031",
+            "Q032",
+            "Q035"
+          ],
+          "learning_cards": [
+            "L02"
+          ]
+        },
+        {
+          "indicator_id": "T02I3",
+          "description": "列方程或方程组解决简单实际问题并检验",
+          "curriculum_code": "CR02",
+          "curriculum_pages": "63／56",
+          "textbook_pages": "上册110—148；下册87—119",
+          "textbook_sections": [
+            {
+              "id": "B06-5.3",
+              "material_id": "B06",
+              "volume": "七年级上册",
+              "chapter": "第五章 一元一次方程",
+              "section": "5.3 实际问题与一元一次方程",
+              "pages": "133—142",
+              "pdf_pages": "24—33"
+            },
+            {
+              "id": "B06-10.3",
+              "material_id": "B06",
+              "volume": "七年级下册",
+              "chapter": "第十章 二元一次方程组",
+              "section": "10.3 实际问题与二元一次方程组",
+              "pages": "101—105",
+              "pdf_pages": "54—58"
+            }
+          ],
+          "question_ids": [
+            "Q027",
+            "Q033",
+            "Q034",
+            "Q036"
+          ],
+          "learning_cards": [
+            "L02"
+          ]
+        }
+      ],
+      "question_ids": [
+        "Q019",
+        "Q020",
+        "Q021",
+        "Q022",
+        "Q023",
+        "Q024",
+        "Q025",
+        "Q026",
+        "Q027",
+        "Q028",
+        "Q029",
+        "Q030",
+        "Q031",
+        "Q032",
+        "Q033",
+        "Q034",
+        "Q035",
+        "Q036"
+      ],
+      "learning_cards": [
+        "L02"
+      ]
+    },
+    {
+      "theme_id": "T03",
+      "name": "不等式与不等式组",
+      "goal": "能解一元一次不等式及简单不等式组，表示解集，并解决范围约束问题。",
+      "indicators": [
+        {
+          "indicator_id": "T03I1",
+          "description": "运用不等式性质求解，负数乘除时正确改变方向",
+          "curriculum_code": "CR03",
+          "curriculum_pages": "63／56",
+          "textbook_pages": "下册120—145",
+          "textbook_sections": [
+            {
+              "id": "B02-11.1",
+              "material_id": "B02",
+              "volume": "七年级下册",
+              "chapter": "第十一章 不等式与不等式组",
+              "section": "11.1 不等式（性质与解集）",
+              "pages": "121—130",
+              "pdf_pages": "2—11"
+            },
+            {
+              "id": "B02-11.2",
+              "material_id": "B02",
+              "volume": "七年级下册",
+              "chapter": "第十一章 不等式与不等式组",
+              "section": "11.2 一元一次不等式",
+              "pages": "131—137",
+              "pdf_pages": "12—18"
+            }
+          ],
+          "question_ids": [
+            "Q037",
+            "Q038",
+            "Q039",
+            "Q040",
+            "Q041",
+            "Q042",
+            "Q043"
+          ],
+          "learning_cards": [
+            "L03"
+          ]
+        },
+        {
+          "indicator_id": "T03I2",
+          "description": "求两个一元一次不等式解集的交集",
+          "curriculum_code": "CR03",
+          "curriculum_pages": "63／56",
+          "textbook_pages": "下册120—145",
+          "textbook_sections": [
+            {
+              "id": "B02-11.3",
+              "material_id": "B02",
+              "volume": "七年级下册",
+              "chapter": "第十一章 不等式与不等式组",
+              "section": "11.3 一元一次不等式组",
+              "pages": "138—141",
+              "pdf_pages": "19—22"
+            }
+          ],
+          "question_ids": [
+            "Q044",
+            "Q045",
+            "Q046",
+            "Q047",
+            "Q048",
+            "Q049",
+            "Q053"
+          ],
+          "learning_cards": [
+            "L03"
+          ]
+        },
+        {
+          "indicator_id": "T03I3",
+          "description": "根据实际限制列不等式并解释取值范围",
+          "curriculum_code": "CR03",
+          "curriculum_pages": "63／56",
+          "textbook_pages": "下册120—145",
+          "textbook_sections": [
+            {
+              "id": "B02-11.2",
+              "material_id": "B02",
+              "volume": "七年级下册",
+              "chapter": "第十一章 不等式与不等式组",
+              "section": "11.2 一元一次不等式",
+              "pages": "131—137",
+              "pdf_pages": "12—18"
+            },
+            {
+              "id": "B02-11.3",
+              "material_id": "B02",
+              "volume": "七年级下册",
+              "chapter": "第十一章 不等式与不等式组",
+              "section": "11.3 一元一次不等式组",
+              "pages": "138—141",
+              "pdf_pages": "19—22"
+            }
+          ],
+          "question_ids": [
+            "Q050",
+            "Q051",
+            "Q052",
+            "Q054"
+          ],
+          "learning_cards": [
+            "L03"
+          ]
+        }
+      ],
+      "question_ids": [
+        "Q037",
+        "Q038",
+        "Q039",
+        "Q040",
+        "Q041",
+        "Q042",
+        "Q043",
+        "Q044",
+        "Q045",
+        "Q046",
+        "Q047",
+        "Q048",
+        "Q049",
+        "Q050",
+        "Q051",
+        "Q052",
+        "Q053",
+        "Q054"
+      ],
+      "learning_cards": [
+        "L03"
+      ]
+    }
+  ],
+  "textbook_sections": [
+    {
+      "id": "B05-3.1",
+      "material_id": "B05",
+      "volume": "七年级上册",
+      "chapter": "第三章 代数式",
+      "section": "3.1 列代数式表示数量关系",
+      "pages": "69—77",
+      "pdf_pages": "2—10"
+    },
+    {
+      "id": "B05-3.2",
+      "material_id": "B05",
+      "volume": "七年级上册",
+      "chapter": "第三章 代数式",
+      "section": "3.2 代数式的值",
+      "pages": "79—85",
+      "pdf_pages": "12—18"
+    },
+    {
+      "id": "B05-4.1",
+      "material_id": "B05",
+      "volume": "七年级上册",
+      "chapter": "第四章 整式的加减",
+      "section": "4.1 整式",
+      "pages": "89—94",
+      "pdf_pages": "22—27"
+    },
+    {
+      "id": "B05-4.2",
+      "material_id": "B05",
+      "volume": "七年级上册",
+      "chapter": "第四章 整式的加减",
+      "section": "4.2 整式的加法与减法（合并同类项、去括号）",
+      "pages": "95—101",
+      "pdf_pages": "28—34"
+    },
+    {
+      "id": "B06-5.1",
+      "material_id": "B06",
+      "volume": "七年级上册",
+      "chapter": "第五章 一元一次方程",
+      "section": "5.1 方程",
+      "pages": "111—119",
+      "pdf_pages": "2—10"
+    },
+    {
+      "id": "B06-5.2",
+      "material_id": "B06",
+      "volume": "七年级上册",
+      "chapter": "第五章 一元一次方程",
+      "section": "5.2 解一元一次方程（合并同类项、移项、去括号、去分母）",
+      "pages": "120—131",
+      "pdf_pages": "11—22"
+    },
+    {
+      "id": "B06-5.3",
+      "material_id": "B06",
+      "volume": "七年级上册",
+      "chapter": "第五章 一元一次方程",
+      "section": "5.3 实际问题与一元一次方程",
+      "pages": "133—142",
+      "pdf_pages": "24—33"
+    },
+    {
+      "id": "B06-10.1",
+      "material_id": "B06",
+      "volume": "七年级下册",
+      "chapter": "第十章 二元一次方程组",
+      "section": "10.1 二元一次方程组的概念",
+      "pages": "88—90",
+      "pdf_pages": "41—43"
+    },
+    {
+      "id": "B06-10.2",
+      "material_id": "B06",
+      "volume": "七年级下册",
+      "chapter": "第十章 二元一次方程组",
+      "section": "10.2 消元——解二元一次方程组（代入法、加减法）",
+      "pages": "91—99",
+      "pdf_pages": "44—52"
+    },
+    {
+      "id": "B06-10.3",
+      "material_id": "B06",
+      "volume": "七年级下册",
+      "chapter": "第十章 二元一次方程组",
+      "section": "10.3 实际问题与二元一次方程组",
+      "pages": "101—105",
+      "pdf_pages": "54—58"
+    },
+    {
+      "id": "B02-11.1",
+      "material_id": "B02",
+      "volume": "七年级下册",
+      "chapter": "第十一章 不等式与不等式组",
+      "section": "11.1 不等式（性质与解集）",
+      "pages": "121—130",
+      "pdf_pages": "2—11"
+    },
+    {
+      "id": "B02-11.2",
+      "material_id": "B02",
+      "volume": "七年级下册",
+      "chapter": "第十一章 不等式与不等式组",
+      "section": "11.2 一元一次不等式",
+      "pages": "131—137",
+      "pdf_pages": "12—18"
+    },
+    {
+      "id": "B02-11.3",
+      "material_id": "B02",
+      "volume": "七年级下册",
+      "chapter": "第十一章 不等式与不等式组",
+      "section": "11.3 一元一次不等式组",
+      "pages": "138—141",
+      "pdf_pages": "19—22"
+    }
+  ],
+  "textbook_materials": {
+    "B01": {
+      "material_id": "B01",
+      "title": "七年级下册 第八章 实数",
+      "source": "5_课程标准及相关教学资源/B01_相关资料切片.pdf"
+    },
+    "B02": {
+      "material_id": "B02",
+      "title": "七年级下册 第十一章 不等式与不等式组",
+      "source": "5_课程标准及相关教学资源/B02_相关资料切片.pdf"
+    },
+    "B03": {
+      "material_id": "B03",
+      "title": "七年级下册 第十二章 数据的收集、整理与描述",
+      "source": "5_课程标准及相关教学资源/B03_相关资料切片.pdf"
+    },
+    "B04": {
+      "material_id": "B04",
+      "title": "七年级上册 第六章 几何图形初步",
+      "source": "5_课程标准及相关教学资源/B04_相关资料切片.pdf"
+    },
+    "B05": {
+      "material_id": "B05",
+      "title": "七年级上册 第三章 代数式；第四章 整式的加减",
+      "source": "5_课程标准及相关教学资源/B05_相关资料切片.pdf"
+    },
+    "B06": {
+      "material_id": "B06",
+      "title": "七年级上册 第五章 一元一次方程；七年级下册 第十章 二元一次方程组",
+      "source": "5_课程标准及相关教学资源/B06_相关资料切片.pdf"
+    },
+    "B07": {
+      "material_id": "B07",
+      "title": "七年级上册 第二章 有理数的运算",
+      "source": "5_课程标准及相关教学资源/B07_相关资料切片.pdf"
+    },
+    "B08": {
+      "material_id": "B08",
+      "title": "七年级下册 第七章 相交线与平行线",
+      "source": "5_课程标准及相关教学资源/B08_相关资料切片.pdf"
+    }
+  },
+  "questions": {
+    "Q001": {
+      "material_id": "Q001",
+      "theme_id": "T01",
+      "type": "填空题",
+      "stem": "每支笔x元，买3支笔另付2元包装费，共需多少元？用代数式表示。",
+      "options": [],
+      "answer": "3x+2",
+      "analysis": "三支笔共3x元，再加2元。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q001P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I1",
+      "source": "赛事新编"
+    },
+    "Q002": {
+      "material_id": "Q002",
+      "theme_id": "T01",
+      "type": "填空题",
+      "stem": "x=4时，代数式2x+3的值是多少？",
+      "options": [],
+      "answer": "11",
+      "analysis": "代入x=4，2×4+3=11。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q002P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I1",
+      "source": "赛事新编"
+    },
+    "Q003": {
+      "material_id": "Q003",
+      "theme_id": "T01",
+      "type": "选择题",
+      "stem": "下列哪一组是同类项？",
+      "options": [
+        "A. 3x与3x²",
+        "B. 3x与-2x",
+        "C. x与xy",
+        "D. 2与2x"
+      ],
+      "answer": "B",
+      "analysis": "3x与-2x的字母及其指数相同。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q003P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I2",
+      "source": "赛事新编"
+    },
+    "Q004": {
+      "material_id": "Q004",
+      "theme_id": "T01",
+      "type": "填空题",
+      "stem": "化简5x-2x+2x-4。",
+      "options": [],
+      "answer": "5x-4",
+      "analysis": "同类项系数5-2+2=5。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q004P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I2",
+      "source": "赛事新编"
+    },
+    "Q005": {
+      "material_id": "Q005",
+      "theme_id": "T01",
+      "type": "填空题",
+      "stem": "去括号：3(a+2)=？",
+      "options": [],
+      "answer": "3a+6",
+      "analysis": "3分别乘括号内两项。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q005P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I2",
+      "source": "赛事新编"
+    },
+    "Q006": {
+      "material_id": "Q006",
+      "theme_id": "T01",
+      "type": "解答题",
+      "stem": "长方形的长为(x+3)厘米，宽为x厘米，用含x的整式表示它的周长。",
+      "options": [],
+      "answer": "4x+6厘米",
+      "analysis": "周长是长与宽之和的2倍；C=2[(x+3)+x]=2(2x+3)；C=4x+6厘米。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q006P1",
+          "description": "写出周长关系",
+          "score": 1
+        },
+        {
+          "id": "Q006P2",
+          "description": "正确列出周长算式",
+          "score": 1
+        },
+        {
+          "id": "Q006P3",
+          "description": "合并同类项并写单位",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I1",
+      "source": "赛事新编"
+    },
+    "Q007": {
+      "material_id": "Q007",
+      "theme_id": "T01",
+      "type": "填空题",
+      "stem": "x=-2时，x²+3x的值是多少？",
+      "options": [],
+      "answer": "-2",
+      "analysis": "(-2)²+3×(-2)=4-6=-2。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q007P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I1",
+      "source": "赛事新编"
+    },
+    "Q008": {
+      "material_id": "Q008",
+      "theme_id": "T01",
+      "type": "填空题",
+      "stem": "4m与-3m是否为同类项？回答“是”或“否”。",
+      "options": [],
+      "answer": "是",
+      "analysis": "字母及指数相同。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q008P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I2",
+      "source": "赛事新编"
+    },
+    "Q009": {
+      "material_id": "Q009",
+      "theme_id": "T01",
+      "type": "解答题",
+      "stem": "化简：2(3x-1)-(x+4)。",
+      "options": [],
+      "answer": "5x-6",
+      "analysis": "去括号得6x-2-x-4；6x-x=5x，-2-4=-6；结果为5x-6。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q009P1",
+          "description": "按法则去括号",
+          "score": 1
+        },
+        {
+          "id": "Q009P2",
+          "description": "合并同类项",
+          "score": 1
+        },
+        {
+          "id": "Q009P3",
+          "description": "写出正确化简结果",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I2",
+      "source": "赛事新编"
+    },
+    "Q010": {
+      "material_id": "Q010",
+      "theme_id": "T01",
+      "type": "填空题",
+      "stem": "去括号：-2(2a-3)=？",
+      "options": [],
+      "answer": "-4a+6",
+      "analysis": "-2乘-3应得+6。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q010P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I2",
+      "source": "赛事新编"
+    },
+    "Q011": {
+      "material_id": "Q011",
+      "theme_id": "T01",
+      "type": "解答题",
+      "stem": "设n为整数，求三个连续整数n-1、n、n+1的和，并说明这个和与3有什么关系。",
+      "options": [],
+      "answer": "3n，是3的倍数",
+      "analysis": "和为(n-1)+n+(n+1)；合并得3n；n为整数，所以和是3的倍数。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q011P1",
+          "description": "列出三个数的和",
+          "score": 1
+        },
+        {
+          "id": "Q011P2",
+          "description": "正确化简",
+          "score": 1
+        },
+        {
+          "id": "Q011P3",
+          "description": "由n为整数解释倍数关系",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I3",
+      "source": "赛事新编"
+    },
+    "Q012": {
+      "material_id": "Q012",
+      "theme_id": "T01",
+      "type": "填空题",
+      "stem": "化简3x+2-5x+7。",
+      "options": [],
+      "answer": "-2x+9",
+      "analysis": "x项得-2x，常数项得9。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q012P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I2",
+      "source": "赛事新编"
+    },
+    "Q013": {
+      "material_id": "Q013",
+      "theme_id": "T01",
+      "type": "填空题",
+      "stem": "a=2，b=-1时，2a-b的值是多少？",
+      "options": [],
+      "answer": "5",
+      "analysis": "2×2-(-1)=5。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q013P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I1",
+      "source": "赛事新编"
+    },
+    "Q014": {
+      "material_id": "Q014",
+      "theme_id": "T01",
+      "type": "解答题",
+      "stem": "某班男生有x人，女生人数比男生人数的2倍少3人。用含x的整式表示全班人数。",
+      "options": [],
+      "answer": "3x-3人",
+      "analysis": "女生人数是2x-3人；全班人数=x+(2x-3)；合并得3x-3人。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q014P1",
+          "description": "表示女生人数",
+          "score": 1
+        },
+        {
+          "id": "Q014P2",
+          "description": "列出全班人数之和",
+          "score": 1
+        },
+        {
+          "id": "Q014P3",
+          "description": "合并同类项并写单位",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I1",
+      "source": "赛事新编"
+    },
+    "Q015": {
+      "material_id": "Q015",
+      "theme_id": "T01",
+      "type": "解答题",
+      "stem": "化简：3(2a-b)-2(a+2b)。",
+      "options": [],
+      "answer": "4a-7b",
+      "analysis": "去括号得6a-3b-2a-4b；a项6a-2a=4a；b项-3b-4b=-7b；结果为4a-7b。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q015P1",
+          "description": "正确去两个括号",
+          "score": 1
+        },
+        {
+          "id": "Q015P2",
+          "description": "分别合并a项和b项",
+          "score": 1
+        },
+        {
+          "id": "Q015P3",
+          "description": "写出正确结果",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I2",
+      "source": "赛事新编"
+    },
+    "Q016": {
+      "material_id": "Q016",
+      "theme_id": "T01",
+      "type": "填空题",
+      "stem": "化简(a+b)-(a-b)。",
+      "options": [],
+      "answer": "2b",
+      "analysis": "去括号后a+b-a+b=2b。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q016P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I2",
+      "source": "赛事新编"
+    },
+    "Q017": {
+      "material_id": "Q017",
+      "theme_id": "T01",
+      "type": "填空题",
+      "stem": "化简2x²y-5x²y。",
+      "options": [],
+      "answer": "-3x²y",
+      "analysis": "相同字母部分保留，系数2-5=-3。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q017P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I2",
+      "source": "赛事新编"
+    },
+    "Q018": {
+      "material_id": "Q018",
+      "theme_id": "T01",
+      "type": "解答题",
+      "stem": "小明说：“无论x取什么值，代数式2(x-3)-3(x+1)+x的值都等于-9。”他的说法对吗？请说明理由。",
+      "options": [],
+      "answer": "对；化简结果为-9，与x的取值无关",
+      "analysis": "去括号得2x-6-3x-3+x；合并同类项得-9；结果不含x，所以无论x取何值，代数式的值都是-9，说法正确。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q018P1",
+          "description": "正确去括号",
+          "score": 1
+        },
+        {
+          "id": "Q018P2",
+          "description": "合并同类项得到-9",
+          "score": 1
+        },
+        {
+          "id": "Q018P3",
+          "description": "说明结果与x无关并作出判断",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T01I3",
+      "source": "赛事新编"
+    },
+    "Q019": {
+      "material_id": "Q019",
+      "theme_id": "T02",
+      "type": "填空题",
+      "stem": "解方程x+7=12，x=？",
+      "options": [],
+      "answer": "5",
+      "analysis": "等式两边减7，x=5。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q019P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I1",
+      "source": "赛事新编"
+    },
+    "Q020": {
+      "material_id": "Q020",
+      "theme_id": "T02",
+      "type": "填空题",
+      "stem": "解方程3x=18，x=？",
+      "options": [],
+      "answer": "6",
+      "analysis": "等式两边除以3。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q020P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I1",
+      "source": "赛事新编"
+    },
+    "Q021": {
+      "material_id": "Q021",
+      "theme_id": "T02",
+      "type": "选择题",
+      "stem": "方程2(x-1)=8去括号后正确的是哪项？",
+      "options": [
+        "A. 2x-1=8",
+        "B. 2x-2=8",
+        "C. 2x+2=8",
+        "D. x-2=8"
+      ],
+      "answer": "B",
+      "analysis": "2乘括号内的x和-1。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q021P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I1",
+      "source": "赛事新编"
+    },
+    "Q022": {
+      "material_id": "Q022",
+      "theme_id": "T02",
+      "type": "解答题",
+      "stem": "解方程：3(x-2)=2x+5。",
+      "options": [],
+      "answer": "x=11",
+      "analysis": "去括号得3x-6=2x+5；移项得3x-2x=5+6；x=11，代回两边均为27。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q022P1",
+          "description": "正确去括号",
+          "score": 1
+        },
+        {
+          "id": "Q022P2",
+          "description": "移项并合并同类项",
+          "score": 1
+        },
+        {
+          "id": "Q022P3",
+          "description": "求解并核对",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I1",
+      "source": "赛事新编"
+    },
+    "Q023": {
+      "material_id": "Q023",
+      "theme_id": "T02",
+      "type": "填空题",
+      "stem": "解方程2x-5=9，x=？",
+      "options": [],
+      "answer": "7",
+      "analysis": "2x=14，所以x=7。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q023P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I1",
+      "source": "赛事新编"
+    },
+    "Q024": {
+      "material_id": "Q024",
+      "theme_id": "T02",
+      "type": "填空题",
+      "stem": "解方程x/3+2=5，x=？",
+      "options": [],
+      "answer": "9",
+      "analysis": "x/3=3，所以x=9。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q024P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I1",
+      "source": "赛事新编"
+    },
+    "Q025": {
+      "material_id": "Q025",
+      "theme_id": "T02",
+      "type": "解答题",
+      "stem": "解方程：(x-1)/2+(x+1)/3=4。",
+      "options": [],
+      "answer": "x=5",
+      "analysis": "同乘6得3(x-1)+2(x+1)=24；展开得5x-1=24；5x=25，x=5。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q025P1",
+          "description": "正确去分母",
+          "score": 1
+        },
+        {
+          "id": "Q025P2",
+          "description": "去括号并合并",
+          "score": 1
+        },
+        {
+          "id": "Q025P3",
+          "description": "求解并检验",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I1",
+      "source": "赛事新编"
+    },
+    "Q026": {
+      "material_id": "Q026",
+      "theme_id": "T02",
+      "type": "填空题",
+      "stem": "x=3是否为方程2x+1=7的解？回答“是”或“否”。",
+      "options": [],
+      "answer": "是",
+      "analysis": "代入左边得7，与右边相等。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q026P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I1",
+      "source": "赛事新编"
+    },
+    "Q027": {
+      "material_id": "Q027",
+      "theme_id": "T02",
+      "type": "填空题",
+      "stem": "某数的2倍再加5等于17，这个数是多少？",
+      "options": [],
+      "answer": "6",
+      "analysis": "设x，2x+5=17，x=6。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q027P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I3",
+      "source": "赛事新编"
+    },
+    "Q028": {
+      "material_id": "Q028",
+      "theme_id": "T02",
+      "type": "解答题",
+      "stem": "解方程组：x+y=9，x-y=3。",
+      "options": [],
+      "answer": "x=6，y=3",
+      "analysis": "两式相加得2x=12；x=6，代入x+y=9得y=3；解为x=6，y=3，两式均成立。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q028P1",
+          "description": "正确选择消元关系",
+          "score": 1
+        },
+        {
+          "id": "Q028P2",
+          "description": "求出一个未知数并回代",
+          "score": 1
+        },
+        {
+          "id": "Q028P3",
+          "description": "给出并核验两个解",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I2",
+      "source": "赛事新编"
+    },
+    "Q029": {
+      "material_id": "Q029",
+      "theme_id": "T02",
+      "type": "填空题",
+      "stem": "方程组x+y=7，x-y=1中的x是多少？",
+      "options": [],
+      "answer": "4",
+      "analysis": "两式相加得2x=8。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q029P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I2",
+      "source": "赛事新编"
+    },
+    "Q030": {
+      "material_id": "Q030",
+      "theme_id": "T02",
+      "type": "填空题",
+      "stem": "方程组x+2y=8、x=2中的y是多少？",
+      "options": [],
+      "answer": "3",
+      "analysis": "代入2+2y=8，y=3。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q030P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I2",
+      "source": "赛事新编"
+    },
+    "Q031": {
+      "material_id": "Q031",
+      "theme_id": "T02",
+      "type": "解答题",
+      "stem": "解方程组：2x+y=11，x-y=1。",
+      "options": [],
+      "answer": "x=4，y=3",
+      "analysis": "由x-y=1得y=x-1；代入2x+y=11得3x-1=11，x=4；y=3，原方程组成立。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q031P1",
+          "description": "正确建立消元步骤",
+          "score": 1
+        },
+        {
+          "id": "Q031P2",
+          "description": "求出x",
+          "score": 1
+        },
+        {
+          "id": "Q031P3",
+          "description": "回代求y并核验",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I2",
+      "source": "赛事新编"
+    },
+    "Q032": {
+      "material_id": "Q032",
+      "theme_id": "T02",
+      "type": "填空题",
+      "stem": "方程组x+y=12、x=2y中的y是多少？",
+      "options": [],
+      "answer": "4",
+      "analysis": "3y=12，所以y=4。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q032P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I2",
+      "source": "赛事新编"
+    },
+    "Q033": {
+      "material_id": "Q033",
+      "theme_id": "T02",
+      "type": "填空题",
+      "stem": "钢笔每支x元，练习本每本y元。买两支钢笔和三本练习本共用17元，列出x、y满足的等量关系式。",
+      "options": [],
+      "answer": "2x+3y=17",
+      "analysis": "总价为数量乘单价后相加。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q033P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I3",
+      "source": "赛事新编"
+    },
+    "Q034": {
+      "material_id": "Q034",
+      "theme_id": "T02",
+      "type": "解答题",
+      "stem": "两张成人票和一张学生票共80元，一张成人票和两张学生票共70元。成人票、学生票的单价各是多少元？",
+      "options": [],
+      "answer": "成人票30元，学生票20元",
+      "analysis": "设成人票x元、学生票y元，2x+y=80，x+2y=70；消元得x=30，y=20；成人票30元，学生票20元，代回均符合。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q034P1",
+          "description": "设未知数并列出两式",
+          "score": 1
+        },
+        {
+          "id": "Q034P2",
+          "description": "正确消元求值",
+          "score": 1
+        },
+        {
+          "id": "Q034P3",
+          "description": "解释并核验票价",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I3",
+      "source": "赛事新编"
+    },
+    "Q035": {
+      "material_id": "Q035",
+      "theme_id": "T02",
+      "type": "填空题",
+      "stem": "方程组x+y=5，2x+y=8中的y是多少？",
+      "options": [],
+      "answer": "2",
+      "analysis": "两式相减得x=3，代入x+y=5得y=2。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q035P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I2",
+      "source": "赛事新编"
+    },
+    "Q036": {
+      "material_id": "Q036",
+      "theme_id": "T02",
+      "type": "解答题",
+      "stem": "笼中鸡和兔共10只，共有26只脚。鸡和兔各有多少只？",
+      "options": [],
+      "answer": "鸡7只，兔3只",
+      "analysis": "设鸡x只、兔y只，x+y=10，2x+4y=26；由方程组得y=3，x=7；鸡7只兔3只，脚数14+12=26。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q036P1",
+          "description": "设未知数并列数量关系",
+          "score": 1
+        },
+        {
+          "id": "Q036P2",
+          "description": "消元求两种数量",
+          "score": 1
+        },
+        {
+          "id": "Q036P3",
+          "description": "检验实际意义",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T02I3",
+      "source": "赛事新编"
+    },
+    "Q037": {
+      "material_id": "Q037",
+      "theme_id": "T03",
+      "type": "填空题",
+      "stem": "解不等式x+4>9，写出解集。",
+      "options": [],
+      "answer": "x>5",
+      "analysis": "两边减4。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q037P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I1",
+      "source": "赛事新编"
+    },
+    "Q038": {
+      "material_id": "Q038",
+      "theme_id": "T03",
+      "type": "填空题",
+      "stem": "解不等式2x≤10，写出解集。",
+      "options": [],
+      "answer": "x≤5",
+      "analysis": "两边除以正数2，方向不变。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q038P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I1",
+      "source": "赛事新编"
+    },
+    "Q039": {
+      "material_id": "Q039",
+      "theme_id": "T03",
+      "type": "填空题",
+      "stem": "解不等式x-3<2，写出解集。",
+      "options": [],
+      "answer": "x<5",
+      "analysis": "两边加3。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q039P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I1",
+      "source": "赛事新编"
+    },
+    "Q040": {
+      "material_id": "Q040",
+      "theme_id": "T03",
+      "type": "解答题",
+      "stem": "解不等式3x-2≤10，并说明解集在数轴上如何表示。",
+      "options": [],
+      "answer": "x≤4，4处实心点向左",
+      "analysis": "两边加2得3x≤12；两边除以3得x≤4；数轴上4处实心点，向左表示。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q040P1",
+          "description": "正确移项",
+          "score": 1
+        },
+        {
+          "id": "Q040P2",
+          "description": "求出解集",
+          "score": 1
+        },
+        {
+          "id": "Q040P3",
+          "description": "正确说明端点与方向",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I1",
+      "source": "赛事新编"
+    },
+    "Q041": {
+      "material_id": "Q041",
+      "theme_id": "T03",
+      "type": "填空题",
+      "stem": "解不等式-2x>6，写出解集。",
+      "options": [],
+      "answer": "x<-3",
+      "analysis": "除以负数-2，不等号方向改变。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q041P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I1",
+      "source": "赛事新编"
+    },
+    "Q042": {
+      "material_id": "Q042",
+      "theme_id": "T03",
+      "type": "填空题",
+      "stem": "已知a<b，则-a与-b之间应填“>”“<”还是“=”？",
+      "options": [],
+      "answer": ">",
+      "analysis": "两边乘-1，不等号方向改变。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q042P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I1",
+      "source": "赛事新编"
+    },
+    "Q043": {
+      "material_id": "Q043",
+      "theme_id": "T03",
+      "type": "解答题",
+      "stem": "解不等式：-2x+3<11。",
+      "options": [],
+      "answer": "x>-4",
+      "analysis": "两边减3得-2x<8；两边除以-2，不等号反向；解集为x>-4；取x=0可检验。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q043P1",
+          "description": "正确移项",
+          "score": 1
+        },
+        {
+          "id": "Q043P2",
+          "description": "除以负数时反向",
+          "score": 1
+        },
+        {
+          "id": "Q043P3",
+          "description": "写出并核对解集",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I1",
+      "source": "赛事新编"
+    },
+    "Q044": {
+      "material_id": "Q044",
+      "theme_id": "T03",
+      "type": "选择题",
+      "stem": "不等式组x≥-2，x<1的解集在数轴上应如何表示？",
+      "options": [
+        "A. -2处空心点、1处实心点，取两点之间",
+        "B. -2处实心点、1处空心点，取两点之间",
+        "C. -2处实心点向左、1处空心点向右",
+        "D. -2处空心点、1处空心点，取两点之间"
+      ],
+      "answer": "B",
+      "analysis": "x≥-2含端点-2，x<1不含端点1，公共部分在两点之间。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q044P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I2",
+      "source": "赛事新编"
+    },
+    "Q045": {
+      "material_id": "Q045",
+      "theme_id": "T03",
+      "type": "填空题",
+      "stem": "同时满足x>1、x<5，写出公共解集。",
+      "options": [],
+      "answer": "1<x<5",
+      "analysis": "取两个解集交集。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q045P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I2",
+      "source": "赛事新编"
+    },
+    "Q046": {
+      "material_id": "Q046",
+      "theme_id": "T03",
+      "type": "解答题",
+      "stem": "解不等式组：x+1>3，2x≤10。",
+      "options": [],
+      "answer": "2<x≤5",
+      "analysis": "由x+1>3得x>2；由2x≤10得x≤5；交集为2<x≤5。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q046P1",
+          "description": "分别解出两个不等式",
+          "score": 1
+        },
+        {
+          "id": "Q046P2",
+          "description": "取两个解集交集",
+          "score": 1
+        },
+        {
+          "id": "Q046P3",
+          "description": "正确写出开闭端点",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I2",
+      "source": "赛事新编"
+    },
+    "Q047": {
+      "material_id": "Q047",
+      "theme_id": "T03",
+      "type": "填空题",
+      "stem": "同时满足x≥-1、x<4，写出公共解集。",
+      "options": [],
+      "answer": "-1≤x<4",
+      "analysis": "左端点含-1，右端点不含4。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q047P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I2",
+      "source": "赛事新编"
+    },
+    "Q048": {
+      "material_id": "Q048",
+      "theme_id": "T03",
+      "type": "填空题",
+      "stem": "不等式组x>3、x<2的解集是什么？",
+      "options": [],
+      "answer": "无解",
+      "analysis": "两个范围没有交集。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q048P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I2",
+      "source": "赛事新编"
+    },
+    "Q049": {
+      "material_id": "Q049",
+      "theme_id": "T03",
+      "type": "解答题",
+      "stem": "解不等式组：2x-1≥3，3-x>0。",
+      "options": [],
+      "answer": "2≤x<3",
+      "analysis": "2x-1≥3得x≥2；3-x>0得x<3；交集为2≤x<3。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q049P1",
+          "description": "正确求第一个解集",
+          "score": 1
+        },
+        {
+          "id": "Q049P2",
+          "description": "正确求第二个解集",
+          "score": 1
+        },
+        {
+          "id": "Q049P3",
+          "description": "取交集并说明端点",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I2",
+      "source": "赛事新编"
+    },
+    "Q050": {
+      "material_id": "Q050",
+      "theme_id": "T03",
+      "type": "填空题",
+      "stem": "每张票5元，买x张的费用不超过30元，应列什么不等式？",
+      "options": [],
+      "answer": "5x≤30",
+      "analysis": "费用为5x，“不超过”对应≤。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q050P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I3",
+      "source": "赛事新编"
+    },
+    "Q051": {
+      "material_id": "Q051",
+      "theme_id": "T03",
+      "type": "填空题",
+      "stem": "一件商品原价x元，优惠5元后价格不超过30元，应列什么不等式？",
+      "options": [],
+      "answer": "x-5≤30",
+      "analysis": "优惠后为x-5。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q051P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I3",
+      "source": "赛事新编"
+    },
+    "Q052": {
+      "material_id": "Q052",
+      "theme_id": "T03",
+      "type": "解答题",
+      "stem": "班级计划至少收集60本书，现已有18本，其余由x名同学每人捐3本。至少还需要多少名同学捐书？",
+      "options": [],
+      "answer": "14人",
+      "analysis": "列出18+3x≥60；得3x≥42，x≥14；人数为整数，至少还需14人。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q052P1",
+          "description": "正确列出至少关系",
+          "score": 1
+        },
+        {
+          "id": "Q052P2",
+          "description": "解不等式",
+          "score": 1
+        },
+        {
+          "id": "Q052P3",
+          "description": "结合人数取整数并解释",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I3",
+      "source": "赛事新编"
+    },
+    "Q053": {
+      "material_id": "Q053",
+      "theme_id": "T03",
+      "type": "填空题",
+      "stem": "解复合不等式-3≤2x+1<7，写出解集。",
+      "options": [],
+      "answer": "-2≤x<3",
+      "analysis": "各部分同时减1再除以2。",
+      "max_score": 1,
+      "score_points": [
+        {
+          "id": "Q053P1",
+          "description": "答案正确",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I2",
+      "source": "赛事新编"
+    },
+    "Q054": {
+      "material_id": "Q054",
+      "theme_id": "T03",
+      "type": "解答题",
+      "stem": "某商品成本为20元，售价为x元。要求每件至少获利5元，且售价不超过30元，求售价x的取值范围。",
+      "options": [],
+      "answer": "25≤x≤30元",
+      "analysis": "至少获利5元，x-20≥5，即x≥25；售价不超过30元，所以x≤30；两条件同时满足：25≤x≤30元。",
+      "max_score": 3,
+      "score_points": [
+        {
+          "id": "Q054P1",
+          "description": "根据利润列下界",
+          "score": 1
+        },
+        {
+          "id": "Q054P2",
+          "description": "根据售价列上界",
+          "score": 1
+        },
+        {
+          "id": "Q054P3",
+          "description": "合并范围并解释",
+          "score": 1
+        }
+      ],
+      "indicator_id": "T03I3",
+      "source": "赛事新编"
+    }
+  },
+  "learning_cards": {
+    "L01": {
+      "material_id": "L01",
+      "theme_id": "T01",
+      "content": "代数式与整式运算：先看数量关系；代入时连同负号加括号；去括号注意括号前的符号，最后合并同类项。",
+      "indicator_ids": [
+        "T01I1",
+        "T01I2",
+        "T01I3"
+      ],
+      "source": "赛事新编"
+    },
+    "L02": {
+      "material_id": "L02",
+      "theme_id": "T02",
+      "content": "方程与方程组：保持等式两边同变；一元一次方程逐步化简；二元一次方程组选择代入或加减消元，并代回原题。",
+      "indicator_ids": [
+        "T02I1",
+        "T02I2",
+        "T02I3"
+      ],
+      "source": "赛事新编"
+    },
+    "L03": {
+      "material_id": "L03",
+      "theme_id": "T03",
+      "content": "不等式与不等式组：两边乘除负数须反向；不等式组取公共解集；注意端点能否取到及现实数量限制。",
+      "indicator_ids": [
+        "T03I1",
+        "T03I2",
+        "T03I3"
+      ],
+      "source": "赛事新编"
+    }
+  },
+  "mappings": {
+    "indicator_to_sections": {
+      "T01I1": [
+        "B05-3.1",
+        "B05-3.2"
+      ],
+      "T01I2": [
+        "B05-4.1",
+        "B05-4.2"
+      ],
+      "T01I3": [
+        "B05-3.1",
+        "B05-3.2",
+        "B05-4.2"
+      ],
+      "T02I1": [
+        "B06-5.1",
+        "B06-5.2"
+      ],
+      "T02I2": [
+        "B06-10.1",
+        "B06-10.2"
+      ],
+      "T02I3": [
+        "B06-5.3",
+        "B06-10.3"
+      ],
+      "T03I1": [
+        "B02-11.1",
+        "B02-11.2"
+      ],
+      "T03I2": [
+        "B02-11.3"
+      ],
+      "T03I3": [
+        "B02-11.2",
+        "B02-11.3"
+      ]
+    },
+    "indicator_to_questions": {
+      "T01I1": [
+        "Q001",
+        "Q002",
+        "Q006",
+        "Q007",
+        "Q013",
+        "Q014"
+      ],
+      "T01I2": [
+        "Q003",
+        "Q004",
+        "Q005",
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q012",
+        "Q015",
+        "Q016",
+        "Q017"
+      ],
+      "T01I3": [
+        "Q011",
+        "Q018"
+      ],
+      "T02I1": [
+        "Q019",
+        "Q020",
+        "Q021",
+        "Q022",
+        "Q023",
+        "Q024",
+        "Q025",
+        "Q026"
+      ],
+      "T02I2": [
+        "Q028",
+        "Q029",
+        "Q030",
+        "Q031",
+        "Q032",
+        "Q035"
+      ],
+      "T02I3": [
+        "Q027",
+        "Q033",
+        "Q034",
+        "Q036"
+      ],
+      "T03I1": [
+        "Q037",
+        "Q038",
+        "Q039",
+        "Q040",
+        "Q041",
+        "Q042",
+        "Q043"
+      ],
+      "T03I2": [
+        "Q044",
+        "Q045",
+        "Q046",
+        "Q047",
+        "Q048",
+        "Q049",
+        "Q053"
+      ],
+      "T03I3": [
+        "Q050",
+        "Q051",
+        "Q052",
+        "Q054"
+      ]
+    }
+  }
+}
